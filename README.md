@@ -5,7 +5,7 @@
 -   [Yarn 3](https://yarnpkg.com/)
 -   Uses [TypeScript](https://www.typescriptlang.org/)
 -   Target application runs in the browser
--   [Snowpack](https://www.snowpack.dev/) (uses [esbuild](https://esbuild.github.io/))
+-   [Vite](https://vitejs.dev/) (uses [esbuild](https://esbuild.github.io/))
 -   [EditorConfig](https://editorconfig.org/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)
 -   QA with [GitHub Actions](https://github.com/features/actions)
 -   [Renovate](https://github.com/renovatebot/renovate) (auto-merge `@types`, no dashboard)
@@ -24,9 +24,9 @@
 
     Among other things, Yarn is robust, performant and extremely versatile when it comes to repository management. The given configuration provides a very solid first-time experience. Some of the things that make modern Yarn great can be seen in this project template.
 
-1.  Why Snowpack?
+1.  Why Vite?
 
-    It uses esbuild and it just works.
+    Snowpack was preferred previously and is now no longer maintained. Time to try something new.
 
 1.  Why Renovate?
 
