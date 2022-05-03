@@ -6,7 +6,8 @@
     "build": "vite build",
     "lint:eslint": "eslint source",
     "lint:tsc": "tsc --noEmit",
-    "serve": "vite preview"
+    "serve": "vite",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@types/eslint": "8",
