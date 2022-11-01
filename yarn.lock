@@ -2154,7 +2154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.16":
+"postcss@npm:^8.4.18":
   version: 8.4.18
   resolution: "postcss@npm:8.4.18"
   dependencies:
@@ -2334,9 +2334,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:~2.78.0":
-  version: 2.78.1
-  resolution: "rollup@npm:2.78.1"
+"rollup@npm:^2.79.1":
+  version: 2.79.1
+  resolution: "rollup@npm:2.79.1"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -2344,7 +2344,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: ae24b886adee31455ec030736b113f84628a4f74106ea47ebf666fa5c7eac23f49b7d15acb5b5ee47671f3e184fb1c8b05946e5c76eb889a1dafaf5c75c9b70a
+  checksum: 421418687f5dcd7324f4387f203c6bfc7118b7ace789e30f5da022471c43e037a76f5fd93837052754eeeae798a4fb266ac05ccee1e594406d912a59af98dde9
   languageName: node
   linkType: hard
 
@@ -2784,19 +2784,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:3.1.8":
-  version: 3.1.8
-  resolution: "vite@npm:3.1.8"
+"vite@npm:3.2.2":
+  version: 3.2.2
+  resolution: "vite@npm:3.2.2"
   dependencies:
     esbuild: ^0.15.9
     fsevents: ~2.3.2
-    postcss: ^8.4.16
+    postcss: ^8.4.18
     resolve: ^1.22.1
-    rollup: ~2.78.0
+    rollup: ^2.79.1
   peerDependencies:
     less: "*"
     sass: "*"
     stylus: "*"
+    sugarss: "*"
     terser: ^5.4.0
   dependenciesMeta:
     fsevents:
@@ -2808,11 +2809,13 @@ __metadata:
       optional: true
     stylus:
       optional: true
+    sugarss:
+      optional: true
     terser:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 75f3959c386b8126e0ed27fdb4723bf63689e9c12f5ea84f537be7c6df460978d53f3237293eecf7b9e8b07ee72eb82c44dca3c0c94063736b6d4bc8c0eeb96c
+  checksum: dc2714cff2482ad54538ca144a3ae1ead40d14c0bd074c10361b9a452f8c5ed32a6b7b35bf949a8ffd942d8ae55afb0ab44f2e3e3bc71b16ccc0ee3036c362ac
   languageName: node
   linkType: hard
 
@@ -2900,6 +2903,6 @@ __metadata:
     prettier-package-json: 2.7.0
     prettier-plugin-organize-imports: 2.3.4
     typescript: 4.8.4
-    vite: 3.1.8
+    vite: 3.2.2
   languageName: unknown
   linkType: soft
