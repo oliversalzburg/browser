@@ -994,7 +994,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.16.3":
+"esbuild@npm:^0.16.14":
   version: 0.16.17
   resolution: "esbuild@npm:0.16.17"
   dependencies:
@@ -2299,7 +2299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.20":
+"postcss@npm:^8.4.21":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -2486,9 +2486,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.7.0":
-  version: 3.12.0
-  resolution: "rollup@npm:3.12.0"
+"rollup@npm:^3.10.0":
+  version: 3.17.3
+  resolution: "rollup@npm:3.17.3"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -2496,7 +2496,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: f681555dd1646fd36df688c85205b91d0569c5d695bfd5d0e0c404a553478019845ed4254ef151c9548f8855e3f7612f3158a3a5a07e49a213ec76050fdebb1d
+  checksum: 28ef64f7c1a45896c0dd014b26d4668a14bbb4c8d867822fbbc08b106a122941351db9912988eda880830f87f6aeb9728271eb3ae864124e3753eb81a62c73d9
   languageName: node
   linkType: hard
 
@@ -2922,15 +2922,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:4.0.4":
-  version: 4.0.4
-  resolution: "vite@npm:4.0.4"
+"vite@npm:4.1.4":
+  version: 4.1.4
+  resolution: "vite@npm:4.1.4"
   dependencies:
-    esbuild: ^0.16.3
+    esbuild: ^0.16.14
     fsevents: ~2.3.2
-    postcss: ^8.4.20
+    postcss: ^8.4.21
     resolve: ^1.22.1
-    rollup: ^3.7.0
+    rollup: ^3.10.0
   peerDependencies:
     "@types/node": ">= 14"
     less: "*"
@@ -2956,7 +2956,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: f567ec2e8449a8beeb61c1471323378801a398d326125d9359125db3caba21bb3a3f818af27fc4693fa7e124f7dda54df8fdd730c7720658a4e6b60d69ff2c1d
+  checksum: 300618519501cebeaf095b8794202b89a4a4c75baae5e0690dd324ed8cb6bd27f6971959f5883b13e711fb6f473acbec81b2161f148299843936568c931a033b
   languageName: node
   linkType: hard
 
@@ -3051,7 +3051,7 @@ __metadata:
     prettier-package-json: 2.8.0
     prettier-plugin-organize-imports: 3.2.2
     typescript: 4.8.4
-    vite: 4.0.4
+    vite: 4.1.4
   languageName: unknown
   linkType: soft
 
