@@ -334,10 +334,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web@npm:0.0.82":
-  version: 0.0.82
-  resolution: "@types/web@npm:0.0.82"
-  checksum: d1c8d7de1cfdefb03132e2a8969f50e4aaf9554b5e7de960e364c67901d496813c7c384ab4034661b5bcd97dc0e03fb326c1b5e98292761a4dc2d4fe09d45856
+"@types/web@npm:0.0.93":
+  version: 0.0.93
+  resolution: "@types/web@npm:0.0.93"
+  checksum: 5a3103651f5f8af2d7fd43d7044037c9889d4ccdaccf42294c099001df0cbb6f08447e52dae24595cc1b6d43cdcf94680e01704697b21ea721fe6d5b1347827a
   languageName: node
   linkType: hard
 
@@ -3042,7 +3042,7 @@ __metadata:
   resolution: "yarn3-typescript-web-vite@workspace:."
   dependencies:
     "@types/eslint": 8
-    "@types/web": 0.0.82
+    "@types/web": 0.0.93
     "@typescript-eslint/eslint-plugin": 5.54.0
     "@typescript-eslint/parser": 5.47.1
     eslint: 8.33.0
