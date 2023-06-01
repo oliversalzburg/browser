@@ -2871,9 +2871,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:4.3.3":
-  version: 4.3.3
-  resolution: "vite@npm:4.3.3"
+"vite@npm:4.3.9":
+  version: 4.3.9
+  resolution: "vite@npm:4.3.9"
   dependencies:
     esbuild: ^0.17.5
     fsevents: ~2.3.2
@@ -2904,7 +2904,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 87814f40a1e21fb372014fe43d0faf3b8f166ee0bc458527b6bccd1b6340782f8e6f5a8986492d99bd31d02f7d1b1538cc0006a0ab6f7e311e603fd1782ae04e
+  checksum: 9eb1c99f16992e1b29e3eea76df312983f2e59915c369fede0f1e6716b80827857f88cfc75092aac807d20c73033c65be82a315a14ab312a52d22a9bdad1ca82
   languageName: node
   linkType: hard
 
@@ -2999,7 +2999,7 @@ __metadata:
     prettier-package-json: 2.8.0
     prettier-plugin-organize-imports: 3.2.2
     typescript: 5.0.4
-    vite: 4.3.3
+    vite: 4.3.9
   languageName: unknown
   linkType: soft
 
