@@ -390,20 +390,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:5.59.9":
-  version: 5.59.9
-  resolution: "@typescript-eslint/parser@npm:5.59.9"
+"@typescript-eslint/parser@npm:5.61.0":
+  version: 5.61.0
+  resolution: "@typescript-eslint/parser@npm:5.61.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.59.9
-    "@typescript-eslint/types": 5.59.9
-    "@typescript-eslint/typescript-estree": 5.59.9
+    "@typescript-eslint/scope-manager": 5.61.0
+    "@typescript-eslint/types": 5.61.0
+    "@typescript-eslint/typescript-estree": 5.61.0
     debug: ^4.3.4
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: af0e041e8a541734ff237ec0eac47e355c2f78dd2b0db4eb4ab0c10ba1b6d5d70f84ddc16f856bc72c4cacd53ef04b5f4948baffb5c8cb2d9a0ffd83a8fbc547
+  checksum: 4fd5a589b0e27a931f32296cc020e7b6052337ceb8312008e5cacbbcd6706f12b2bc481398c40d6e8c482770929593564a6ed2a3b681e7a7634282bd9c12afc4
   languageName: node
   linkType: hard
 
@@ -414,6 +414,16 @@ __metadata:
     "@typescript-eslint/types": 5.59.9
     "@typescript-eslint/visitor-keys": 5.59.9
   checksum: 41622fd270e5b8574347ed5dd020bbb9752d85e6f40df180e944c1110d9bd2227a949067feb23dd4117dd2be0623c05a47bc363abe605c96deb295753f6dd080
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/scope-manager@npm:5.61.0":
+  version: 5.61.0
+  resolution: "@typescript-eslint/scope-manager@npm:5.61.0"
+  dependencies:
+    "@typescript-eslint/types": 5.61.0
+    "@typescript-eslint/visitor-keys": 5.61.0
+  checksum: 3f4cc831094490d1d201ed1bdf4441eb807b3d6613898b0683ff989bb6dbaeef0311a6dd9d8deb2e4efa2a84d9c857de058edba2eb92abbaeb0385d1dd2ab564
   languageName: node
   linkType: hard
 
@@ -441,6 +451,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/types@npm:5.61.0":
+  version: 5.61.0
+  resolution: "@typescript-eslint/types@npm:5.61.0"
+  checksum: f6aacd4ee3180d851463976696d9c43df2debf3bad2c3f26aeaf2a0cab30235152efb5f04e649863548bfc57f454d6c0a2f12f68508feb4771d7e6b1b72bc066
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/typescript-estree@npm:5.59.9":
   version: 5.59.9
   resolution: "@typescript-eslint/typescript-estree@npm:5.59.9"
@@ -456,6 +473,24 @@ __metadata:
     typescript:
       optional: true
   checksum: 2f3d8df6d454fbc52d305abfe8447bff8e8d63294ce47e4679c920f647643f5d15a1f693caf74f4fabece12d5ba27ebdb156d507b16fbd2751fc01ba6c4df3c8
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/typescript-estree@npm:5.61.0":
+  version: 5.61.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.61.0"
+  dependencies:
+    "@typescript-eslint/types": 5.61.0
+    "@typescript-eslint/visitor-keys": 5.61.0
+    debug: ^4.3.4
+    globby: ^11.1.0
+    is-glob: ^4.0.3
+    semver: ^7.3.7
+    tsutils: ^3.21.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 78f60103ad7c282840bd7623b38b785fdd46a75511354e1336589bae532daab7e7f297b1264814e7cd3191cf2e0608b1cc89fc599c0b03085b709a6490965233
   languageName: node
   linkType: hard
 
@@ -484,6 +519,16 @@ __metadata:
     "@typescript-eslint/types": 5.59.9
     eslint-visitor-keys: ^3.3.0
   checksum: 882fd03830cbe0eca8f9a547aecc6519ddbec10e55f5f3de66e605a3f3d42a6237abd3c09b34d9cc3343c8e11386e999876aec384efe523e1478cb22752d326d
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/visitor-keys@npm:5.61.0":
+  version: 5.61.0
+  resolution: "@typescript-eslint/visitor-keys@npm:5.61.0"
+  dependencies:
+    "@typescript-eslint/types": 5.61.0
+    eslint-visitor-keys: ^3.3.0
+  checksum: f438b68b67e03fc39e39537a594259f5df64155f775ef7afb915507f7c364ba8a93567302080c3364d270001d5dd67ee0a0632a92d8d6f6fc776f97c082c130a
   languageName: node
   linkType: hard
 
@@ -2947,7 +2992,7 @@ __metadata:
     "@types/eslint": 8
     "@types/web": 0.0.103
     "@typescript-eslint/eslint-plugin": 5.59.9
-    "@typescript-eslint/parser": 5.59.9
+    "@typescript-eslint/parser": 5.61.0
     eslint: 8.41.0
     lint-staged: 13.2.3
     prettier: 2.8.8
