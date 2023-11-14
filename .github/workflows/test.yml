@@ -1,14 +1,8 @@
 name: QA
 
 on:
-  push:
-    branches:
-      - master
-      - main
   pull_request:
-    branches:
-      - master
-      - main
+  push:
 
 jobs:
   qa:
@@ -17,12 +11,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
 
       - name: Select NodeJS version
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65 # v4
         with:
-          node-version: lts/*
+          # renovate: datasource=docker depName=node versioning=node
+          node-version: "20.9.0"
+
+      - name: Enable Corepack
+        run: corepack enable
 
       - name: Install dependencies
         run: yarn install
@@ -31,5 +29,7 @@ jobs:
         run: yarn lint:eslint
       - name: Lint TSC
         run: yarn lint:tsc
+      - name: Lint Prettier
+        run: yarn lint:prettier
       - name: Build
         run: yarn build
