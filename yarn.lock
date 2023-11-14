@@ -321,13 +321,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.4.1":
-  version: 8.4.1
-  resolution: "@types/eslint@npm:8.4.1"
+"@types/eslint@npm:8.44.7":
+  version: 8.44.7
+  resolution: "@types/eslint@npm:8.44.7"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 3ba1ddb8d2362316bafe65f90aa41ce23f923f8ae6a131e382540a7c0d8ad5f04117e6aba788392717a616bd6e2589a1d954630c49edb364d28dc8eeb5214890
+  checksum: 447b55ccff47668fc63466728e7e598ae16a03de8d489350e855b6020ad16f58a703e75b875376dd6cd5fcab630311a805fa7f934476637ea35819f01c9db3ca
   languageName: node
   linkType: hard
 
@@ -2812,7 +2812,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn3-typescript-web-vite@workspace:."
   dependencies:
-    "@types/eslint": "npm:8.4.1"
+    "@types/eslint": "npm:8.44.7"
     "@types/web": "npm:0.0.119"
     "@typescript-eslint/eslint-plugin": "npm:6.11.0"
     "@typescript-eslint/parser": "npm:6.11.0"
