@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/eslint": "8.4.1",
-    "@types/web": "0.0.115",
+    "@types/web": "0.0.119",
     "@typescript-eslint/eslint-plugin": "6.11.0",
     "@typescript-eslint/parser": "6.11.0",
     "eslint": "8.53.0",
