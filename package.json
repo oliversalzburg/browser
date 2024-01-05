@@ -24,7 +24,7 @@
     "prettier-package-json": "2.8.0",
     "prettier-plugin-organize-imports": "3.2.4",
     "typescript": "5.3.3",
-    "vite": "5.0.10"
+    "vite": "5.0.11"
   },
   "packageManager": "yarn@4.0.2"
 }
