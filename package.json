@@ -19,7 +19,7 @@
     "@types/web": "0.0.147",
     "eslint": "8.57.0",
     "globals": "15.3.0",
-    "lint-staged": "15.2.4",
+    "lint-staged": "15.2.5",
     "prettier": "3.2.5",
     "prettier-package-json": "2.8.0",
     "prettier-plugin-organize-imports": "3.2.4",
