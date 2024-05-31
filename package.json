@@ -15,7 +15,7 @@
     "test": "echo this project has no tests."
   },
   "devDependencies": {
-    "@eslint/js": "9.3.0",
+    "@eslint/js": "9.4.0",
     "@types/eslint": "8.56.10",
     "@types/web": "0.0.147",
     "eslint": "8.57.0",
