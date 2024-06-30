@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@eslint/js": "9.6.0",
-    "@oliversalzburg/eslint-config": "0.0.13",
+    "@oliversalzburg/eslint-config": "0.0.15",
     "@types/eslint": "8.56.10",
     "@types/web": "0.0.150",
     "eslint": "9.6.0",
@@ -30,7 +30,7 @@
     "prettier-plugin-organize-imports": "3.2.4",
     "prettier-plugin-sh": "0.14.0",
     "typescript": "5.5.2",
-    "typescript-eslint": "8.0.0-alpha.34",
+    "typescript-eslint": "8.0.0-alpha.37",
     "vite": "5.3.2"
   },
   "packageManager": "yarn@4.3.1"
