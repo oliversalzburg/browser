@@ -16,12 +16,12 @@
   },
   "devDependencies": {
     "@eslint/js": "9.8.0",
-    "@oliversalzburg/eslint-config": "0.0.26",
+    "@oliversalzburg/eslint-config": "0.0.28",
     "@types/eslint": "9.6.0",
     "@types/web": "0.0.152",
     "eslint": "9.8.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsdoc": "48.9.3",
+    "eslint-plugin-jsdoc": "48.10.2",
     "eslint-plugin-tsdoc": "0.3.0",
     "globals": "15.8.0",
     "lint-staged": "15.2.7",
@@ -30,7 +30,7 @@
     "prettier-plugin-organize-imports": "4.0.0",
     "prettier-plugin-sh": "0.14.0",
     "typescript": "5.5.4",
-    "typescript-eslint": "8.0.0-alpha.58",
+    "typescript-eslint": "8.0.0-alpha.60",
     "vite": "5.3.5"
   },
   "packageManager": "yarn@4.3.1"
