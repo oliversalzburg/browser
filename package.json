@@ -18,7 +18,7 @@
     "@eslint/js": "9.12.0",
     "@oliversalzburg/eslint-config": "1.1.0",
     "@types/eslint": "9.6.1",
-    "@types/web": "0.0.170",
+    "@types/web": "0.0.171",
     "eslint": "9.12.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jsdoc": "50.3.2",
