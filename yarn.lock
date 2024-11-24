@@ -583,10 +583,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web@npm:0.0.182":
-  version: 0.0.182
-  resolution: "@types/web@npm:0.0.182"
-  checksum: 10c0/54d82a7be7314de5bf7ff1df7f180e3a36a03df7095d9ef7c972a99ef784559ce553299db101ed5c59961390aed6d7253054634242efc63061d4b1128953020f
+"@types/web@npm:0.0.183":
+  version: 0.0.183
+  resolution: "@types/web@npm:0.0.183"
+  checksum: 10c0/b040ef13c81b527b0d02fbb3860c863c19ee5fe881c202ae60e058b604fd79338c338d31494d28f0b7c208f6304ffe3dc6701dac8c282a43376ab38b9828ed22
   languageName: node
   linkType: hard
 
@@ -3265,7 +3265,7 @@ __metadata:
     "@eslint/js": "npm:9.15.0"
     "@oliversalzburg/eslint-config": "npm:1.1.0"
     "@types/eslint": "npm:9.6.1"
-    "@types/web": "npm:0.0.182"
+    "@types/web": "npm:0.0.183"
     eslint: "npm:9.15.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-jsdoc: "npm:50.5.0"
