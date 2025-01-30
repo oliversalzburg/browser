@@ -1,5 +1,6 @@
 {
-  "name": "yarn3-typescript-web-vite",
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "browser",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
