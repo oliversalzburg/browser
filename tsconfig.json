@@ -10,7 +10,7 @@
     "importHelpers": true,
     "incremental": true,
     "isolatedModules": true,
-    "lib": ["DOM", "ESNext"],
+    "lib": ["DOM", "ESNext", "WebWorker"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "output",
