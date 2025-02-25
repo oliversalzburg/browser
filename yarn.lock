@@ -463,10 +463,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web@npm:0.0.200":
-  version: 0.0.200
-  resolution: "@types/web@npm:0.0.200"
-  checksum: 10c0/1147ba070ed163c5ff2b65b2e852fc51d5ba09032ec272fe83039b662a89bac5b918d698d09896720bfee015edbc46ae42e30cfc05a0ddb3dad143797831c3cb
+"@types/web@npm:0.0.206":
+  version: 0.0.206
+  resolution: "@types/web@npm:0.0.206"
+  checksum: 10c0/12914e0e0511734b0ee93c49f3e6b9e12b69fab1e54e4d5066384292ceba01ab877f8e5befe8793fba910e373f3407b6f54c7dd078c94965a2f072234f440779
   languageName: node
   linkType: hard
 
@@ -553,7 +553,7 @@ __metadata:
   resolution: "browser@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
-    "@types/web": "npm:0.0.200"
+    "@types/web": "npm:0.0.206"
     lint-staged: "npm:15.4.3"
     typescript: "npm:5.7.3"
     vite: "npm:6.0.11"
