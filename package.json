@@ -4,16 +4,6 @@
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
-  "scripts": {
-    "build": "vite build",
-    "lint": "yarn run lint:all",
-    "lint:all": "yarn run lint:biome && yarn run lint:tsc",
-    "lint:biome": "biome check .",
-    "lint:tsc": "tsc --noEmit",
-    "preview": "vite preview",
-    "serve": "vite",
-    "test": "echo this project has no tests."
-  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/web": "0.0.206",
