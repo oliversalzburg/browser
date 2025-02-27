@@ -5,7 +5,7 @@ default: build
 build: output
 
 clean:
-	rm --force --recursive node_modules output
+	rm --force --recursive node_modules output tsconfig.tsbuildinfo
 
 docs:
 	@echo "No documentation included by default."

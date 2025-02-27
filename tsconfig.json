@@ -5,6 +5,8 @@
     "baseUrl": ".",
     "checkJs": true,
     "composite": true,
+    "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
@@ -15,6 +17,7 @@
     "moduleResolution": "NodeNext",
     "outDir": "output",
     "resolveJsonModule": true,
+    "rootDir": "source",
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
@@ -22,6 +25,5 @@
     "types": ["@types/web", "vite/client"],
     "useDefineForClassFields": true
   },
-  "include": ["./@types", "./source"],
-  "exclude": ["./output"]
+  "include": ["@types", "source"]
 }
