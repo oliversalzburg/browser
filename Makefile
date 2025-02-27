@@ -26,6 +26,7 @@ run: clean
 
 node_modules:
 	yarn install
+	git restore package.json
 
 output: node_modules
 	yarn vite build
