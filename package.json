@@ -1,13 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "browser",
+  "version": "0.0.0",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/web": "0.0.206",
-    "lint-staged": "15.4.3",
     "typescript": "5.7.3",
     "vite": "6.2.0"
   },
