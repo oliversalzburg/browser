@@ -9,6 +9,6 @@
     "@biomejs/biome": "2.0.6",
     "@types/web": "0.0.246",
     "typescript": "5.8.3",
-    "vite": "7.0.3"
+    "vite": "7.0.4"
   }
 }
