@@ -7,7 +7,7 @@
   "type": "module",
   "devDependencies": {
     "@biomejs/biome": "2.2.5",
-    "@types/web": "0.0.276",
+    "@types/web": "0.0.277",
     "typescript": "5.9.3",
     "vite": "7.1.9"
   }
