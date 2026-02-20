@@ -6,7 +6,7 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
   "devDependencies": {
-    "@biomejs/biome": "2.4.1",
+    "@biomejs/biome": "2.4.2",
     "@types/web": "0.0.336",
     "typescript": "5.9.3",
     "vite": "7.3.1"
